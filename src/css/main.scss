@@ -1,0 +1,13 @@
+@import "colors";
+
+.container{padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;max-width: 730px;}
+.container p,.container .jumbotron{text-align:center;}
+.container .jumbotron{padding:0 60px 20px;background-color: $jumbotron;}
+a{text-decoration:none;}
+a.button{border-radius:3px;color:#fff;margin-right:10px;padding:10px;font-size:18px;font-weight:400px;}
+
+.btn-primary{background-color: $primaryBtn;border: 1px solid $primaryBtn_border;}
+.btn-primary:hover,.btn-primary:focus{background-color: $primaryBtn--active;border: 1px solid $primaryBtn_border--active;}
+
+.btn-info{background-color: $infoBtn;border: 1px solid $infoBtn_border;}
+.btn-info:hover,.btn-info:focus{background-color: $infoBtn--active;border: 1px solid $infoBtn_border--active;}

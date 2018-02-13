@@ -1,0 +1,1 @@
+console.log('Welcome to Webpack2 ecosystem!');
